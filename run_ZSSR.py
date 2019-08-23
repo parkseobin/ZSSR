@@ -9,6 +9,7 @@ import run_ZSSR_single_input
 
 
 def main(conf_name, gpu):
+    gpu = '1'
     # Initialize configs and prepare result dir with date
     if conf_name is None:
         conf = configs.Config()
